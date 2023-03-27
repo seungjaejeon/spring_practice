@@ -9,7 +9,6 @@ import java.util.List;
 
 public class MemoryMemberRepositoryTest {
     MemoryMemberRepository repository = new MemoryMemberRepository();
-
     //테스트가 끝날때마다 데이터를 깔끔하게 지워줘야함
     //테스트끼리는 의존관계가 없어야한다.
     @AfterEach
